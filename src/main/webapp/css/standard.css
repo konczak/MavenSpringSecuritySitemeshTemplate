@@ -1,0 +1,27 @@
+body {
+    padding-top: 50px;
+}
+.project-template {
+    padding: 40px 15px;
+}
+
+.info-danger {
+    background-color: #FCF2F2;
+    border-left: 5px solid #DFB5B4;
+    margin: 20px 0;
+    padding: 15px 30px 15px 15px;
+}
+
+sup.required {
+    color: #880000;
+    font-weight: bold;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.navbar-brand {
+    font-size: 12px;
+    font-weight: bold;
+}
