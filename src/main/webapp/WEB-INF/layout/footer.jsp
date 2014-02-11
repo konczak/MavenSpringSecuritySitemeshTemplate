@@ -1,5 +1,9 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
+<spring:message var="telepUrl" code="telep.url.main"/>
+<spring:message var="modulsystemUrl" code="modulsystem.url.main"/>
+<spring:message var="cybercomUrl" code="cybercom.url.main"/>
+
 <footer>
     <div class="container text-left">
         <p>
@@ -7,15 +11,15 @@
         </p>
         <ul class="list-inline">
             <li>
-                Cybercom Poland
+                <a href="${telepUrl}" target="_blank">Tele P</a>
             </li>
             <li>-</li>
             <li>
-                ModulSystem
+                <a href="${modulsystemUrl}" target="_blank">ModulSystem</a>
             </li>
             <li>-</li>
             <li>
-                Tele P
+                <a href="${cybercomUrl}" target="_blank">Cybercom Poland</a>
             </li>
         </ul>
         <p>
