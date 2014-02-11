@@ -1,0 +1,8 @@
+.flag {
+	width: 16px;
+	height: 11px;
+	background:url(/MavenSpringSecuritySitemeshTemplate/resources/images/i18n/flags.png) no-repeat;
+}
+
+.flag.flag-en {background-position: -16px 0}
+.flag.flag-sv {background-position: 0 -11px}

@@ -5,7 +5,7 @@
     <groupId>com.cybercom.telep</groupId>
     <artifactId>MavenSpringSecuritySitemeshTemplate</artifactId>
     <packaging>war</packaging>
-    <version>0.0.4-BOOTSTRAP</version>
+    <version>0.0.5-BOOTSTRAP</version>
 
     <name>MavenSpringSecuritySitemeshTemplate-${project.version}</name>
     <url>http://maven.apache.org</url>

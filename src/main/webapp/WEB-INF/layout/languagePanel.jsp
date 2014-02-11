@@ -3,12 +3,11 @@
 <%@taglib prefix="util" tagdir="/WEB-INF/tags/util"%>
 
 <c:set var="language" value="${pageContext.response.locale.language}"/>
-<c:url var="responseLocaleFlagUrl" value="/resources/images/i18n/${language}.png"/>
+<spring:url var="blankGifUrl" value="/resources/images/blank.gif"/>
 
 <li>
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        <!--<spring:message code="global_language"/>-->
-        <img src="${responseLocaleFlagUrl}" alt="${language}"/>
+        <img src="${blankGifUrl}" class="flag flag-${language}" alt="${language}" />
         <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">

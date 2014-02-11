@@ -34,9 +34,9 @@
                         <td><joda:format value="${someDTO.dateTime}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
                         <td>${someDTO.bool}</td>
                         <td>${someDTO.bigDecimal}</td>
-                        <td><span class="glyphicon glyphicon-print"></span></td>
-                        <td><span class="glyphicon glyphicon-edit"></span></td>
-                        <td><span class="glyphicon glyphicon-trash"></span></td>
+                        <td><i class="glyphicon glyphicon-print"></i></td>
+                        <td><i class="glyphicon glyphicon-edit"></i></td>
+                        <td><i class="glyphicon glyphicon-trash"></i></td>
                     </tr>
                 </c:forEach>
             </tbody>

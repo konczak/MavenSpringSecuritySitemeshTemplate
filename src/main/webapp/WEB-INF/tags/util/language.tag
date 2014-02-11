@@ -2,7 +2,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@attribute name="locale" required="true" %>
 
-<c:url var="localeFlagUrl" value="/resources/images/i18n/${locale}.png"/>
+<spring:url var="blankGifUrl" value="/resources/images/blank.gif"/>
 
 <spring:url var="actualLinkAndLanguageChange" value="">
     <c:forEach items="${pageContext.request.parameterNames}" var="name">
@@ -14,5 +14,5 @@
 </spring:url>
 
 <a href="${actualLinkAndLanguageChange}">
-    <img src="${localeFlagUrl}" alt="${locale}"/>
+    <img src="${blankGifUrl}" class="flag flag-${locale}" alt="${locale}" />
 </a>

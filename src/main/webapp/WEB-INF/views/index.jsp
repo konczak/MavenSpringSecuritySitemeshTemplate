@@ -1,11 +1,11 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<c:url var="rootUrl" value="/"/>
-<c:url var="exampleCustomerFormUrl" value="/example/CustomerForm"/>
-<c:url var="exampleListUrl" value="/example/list"/>
-<c:url var="exampleMessageUrl" value="/example/message"/>
-<c:url var="exampleTableUrl" value="/example/table"/>
+<spring:url var="rootUrl" value="/"/>
+<spring:url var="exampleCustomerFormUrl" value="/example/CustomerForm"/>
+<spring:url var="exampleListUrl" value="/example/list"/>
+<spring:url var="exampleMessageUrl" value="/example/message"/>
+<spring:url var="exampleTableUrl" value="/example/table"/>
 <html>
     <head>
         <title>Hello World</title>

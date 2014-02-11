@@ -1,8 +1,8 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<c:url var="credentialsCheckUrl" value="j_spring_security_check" />
-<c:url var="signinCssUrl" value="/resources/css/signin.css" />
+<spring:url var="credentialsCheckUrl" value="j_spring_security_check" />
+<spring:url var="signinCssUrl" value="/resources/css/signin.css" />
 
 <html>
     <head>
