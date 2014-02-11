@@ -8,11 +8,9 @@
         <meta name='description' content='A simple page'>
     </head>
     <body>
-        <div class="project-template">
-            <p>Welcome logged user!</p>
-            <spring:message code="welcome_text"/><br/>
-            <h3>Message : ${message}</h3>
-            <h3>Username : ${username}</h3>
-        </div>
+        <p>Welcome logged user!</p>
+        <spring:message code="welcome_text"/><br/>
+        <h3>Message : ${message}</h3>
+        <h3>Username : ${username}</h3>
     </body>
 </html>

@@ -12,17 +12,15 @@
         <meta name="description" content="A simple page">
     </head>
     <body>
-        <div class="project-template">
-            <div class="jumbotron">
-                <h1>Hello world</h1>
-                <p><spring:message code="welcome_text"/></p>
-                <div class="list-group">
-                    <a href="${rootUrl}" class="list-group-item active">${rootUrl}</a>
-                    <a href="${exampleCustomerFormUrl}" class="list-group-item">${exampleCustomerFormUrl}</a>
-                    <a href="${exampleListUrl}" class="list-group-item">${exampleListUrl}</a>
-                    <a href="${exampleMessageUrl}" class="list-group-item">${exampleMessageUrl}</a>
-                    <a href="${exampleTableUrl}" class="list-group-item">${exampleTableUrl}</a>
-                </div>
+        <div class="jumbotron">
+            <h1>Hello world</h1>
+            <p><spring:message code="welcome_text"/></p>
+            <div class="list-group">
+                <a href="${rootUrl}" class="list-group-item active">${rootUrl}</a>
+                <a href="${exampleCustomerFormUrl}" class="list-group-item">${exampleCustomerFormUrl}</a>
+                <a href="${exampleListUrl}" class="list-group-item">${exampleListUrl}</a>
+                <a href="${exampleMessageUrl}" class="list-group-item">${exampleMessageUrl}</a>
+                <a href="${exampleTableUrl}" class="list-group-item">${exampleTableUrl}</a>
             </div>
         </div>
     </body>

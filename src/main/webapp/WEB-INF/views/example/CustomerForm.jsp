@@ -9,18 +9,16 @@
     </head>
     <body>
         <h1>Example form!</h1>
-        <div class="project-template">
-            <form:form method="POST" commandName="customer" role="form">
-                <form:errors path="*" cssClass="info-danger" element="div" />
+        <form:form method="POST" commandName="customer" role="form">
+            <form:errors path="*" cssClass="info-danger" element="div" />
 
-                <myForm:input object="customer" fieldName="userName" required="true"/>
-                <myForm:textarea object="customer" fieldName="address"/>
-                <myForm:password object="customer" fieldName="password" required="true"/>
-                <myForm:password object="customer" fieldName="confirmPassword" required="true"/>
-                <myForm:checkbox object="customer" fieldName="receiveNewsletter"/>
-                <form:hidden path="secretValue" />
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form:form>
-        </div>
+            <myForm:input object="customer" fieldName="userName" required="true"/>
+            <myForm:textarea object="customer" fieldName="address"/>
+            <myForm:password object="customer" fieldName="password" required="true"/>
+            <myForm:password object="customer" fieldName="confirmPassword" required="true"/>
+            <myForm:checkbox object="customer" fieldName="receiveNewsletter"/>
+            <form:hidden path="secretValue" />
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form:form>
     </body>
 </html>
