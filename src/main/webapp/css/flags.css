@@ -1,8 +1,31 @@
 .flag {
-	width: 16px;
-	height: 11px;
-	background:url(/MavenSpringSecuritySitemeshTemplate/resources/images/i18n/flags.png) no-repeat;
+    width: 25px;
+    height: 15px;
+    background:url(/MavenSpringSecuritySitemeshTemplate/resources/images/i18n/flags.png) no-repeat;
 }
 
-.flag.flag-en {background-position: -16px 0}
-.flag.flag-sv {background-position: 0 -11px}
+.flag.flag-cn {background-position: -25px 0}
+.flag.flag-de {background-position: -50px 0}
+.flag.flag-es {background-position: -75px 0}
+.flag.flag-fr {background-position: 0 -15px}
+.flag.flag-gb {background-position: -25px -15px}
+.flag.flag-it {background-position: -50px -15px}
+.flag.flag-jp {background-position: -75px -15px}
+.flag.flag-kr {background-position: 0 -30px}
+.flag.flag-pl {background-position: -25px -30px}
+.flag.flag-ru {background-position: -50px -30px}
+.flag.flag-se {background-position: -75px -30px}
+.flag.flag-tr {background-position: 0 -45px}
+
+.flag.lang-de {background-position: -50px 0}
+.flag.lang-en {background-position: -25px -15px}
+.flag.lang-es {background-position: -75px 0}
+.flag.lang-fr {background-position: 0 -15px}
+.flag.lang-it {background-position: -50px -15px}
+.flag.lang-ja {background-position: -75px -15px}
+.flag.lang-ko {background-position: 0 -30px}
+.flag.lang-pl {background-position: -25px -30px}
+.flag.lang-ru {background-position: -50px -30px}
+.flag.lang-sv {background-position: -75px -30px}
+.flag.lang-tr {background-position: 0 -45px}
+.flag.lang-zh {background-position: -25px 0}

@@ -7,11 +7,21 @@
 
 <li>
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        <img src="${blankGifUrl}" class="flag flag-${language}" alt="${language}" />
+        <img src="${blankGifUrl}" class="flag lang-${language}" alt="${language}" />
         <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
-        <li><util:language locale="en"/></li>
-        <li><util:language locale="sv"/></li>
+        <li class="disabled"><util:language language="zh"/></li>
+        <li class="disabled"><util:language language="de"/></li>
+        <li class="disabled"><util:language language="es"/></li>
+        <li class="disabled"><util:language language="fr"/></li>
+        <li><util:language language="en"/></li>
+        <li class="disabled"><util:language language="it"/></li>
+        <li class="disabled"><util:language language="ja"/></li>
+        <li class="disabled"><util:language language="ko"/></li>
+        <li class="disabled"><util:language language="pl"/></li>
+        <li class="disabled"><util:language language="ru"/></li>
+        <li><util:language language="sv"/></li>
+        <li class="disabled"><util:language language="tr"/></li>
     </ul>
 </li>
