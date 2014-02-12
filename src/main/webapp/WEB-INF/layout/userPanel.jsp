@@ -6,15 +6,19 @@
 <spring:url var="logoutUrl" value="/j_spring_security_logout" />
 <sec:authorize var="loggedIn" access="isAuthenticated()" />
 
-<li>
-    <c:choose>
-        <c:when test="${loggedIn}">
+<c:choose>
+    <c:when test="${loggedIn}">
+        <li>
             <a href="${logoutUrl}" >
-                <spring:message code="security_logout"/>&nbsp;<sec:authentication property="principal.username" />
+                <i class="glyphicon glyphicon-log-out"></i>
             </a>
-        </c:when>
-        <c:otherwise>
-            <a href="${loginUrl}" ><spring:message code="security_login"/></a>
-        </c:otherwise>
-    </c:choose>
-</li>
+        </li>
+    </c:when>
+    <c:otherwise>
+        <li>
+            <a href="${loginUrl}" >
+                <i class="glyphicon glyphicon-log-in"></i>
+            </a>
+        </li>
+    </c:otherwise>
+</c:choose>
