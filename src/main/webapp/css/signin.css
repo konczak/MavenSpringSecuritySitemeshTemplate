@@ -34,7 +34,23 @@ body {
     border-bottom-right-radius: 0;
 }
 .form-signin input[type="password"] {
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+.form-signin div.input-group span.input-group-addon {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 139, 202);
+    border-color: rgb(53, 126, 189);
+}
+.form-signin div.input-group span#usernameAddon {
+    border-bottom-left-radius: 0;
+}
+.form-signin div.input-group span#passwordAddon {
+    border-top-left-radius: 0;
+}
+
+.form-signin div.alert {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }

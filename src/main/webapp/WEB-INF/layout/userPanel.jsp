@@ -9,6 +9,9 @@
 <c:choose>
     <c:when test="${loggedIn}">
         <li>
+            <p class="navbar-text"><sec:authentication property="principal.username" /></p>
+        </li>
+        <li>
             <a href="${logoutUrl}" >
                 <i class="glyphicon glyphicon-log-out"></i>
             </a>

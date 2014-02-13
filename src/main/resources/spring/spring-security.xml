@@ -10,6 +10,9 @@
     <http auto-config="true" use-expressions="true">
         <intercept-url pattern="/loginfailed" access="permitAll"/>
         <intercept-url pattern="/login/**" access="permitAll"/>
+        <intercept-url pattern="/uncaughtException" access="permitAll" />
+        <intercept-url pattern="/resourceNotFound" access="permitAll" />
+        <intercept-url pattern="/dataAccessFailure" access="permitAll" />
         <intercept-url pattern="/resources/**" access="permitAll" />
         <intercept-url pattern="/**" access="isAuthenticated()"/>
         <form-login login-page="/login"
