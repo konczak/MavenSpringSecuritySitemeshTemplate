@@ -42,7 +42,6 @@
                 <div class="navbar-collapse collapse">
                     <jsp:include page="../layout/menu.jsp"/>
                     <ul class="nav navbar-nav navbar-right">
-                        <jsp:include page="../layout/languagePanel.jsp"/>
                         <jsp:include page="../layout/userPanel.jsp"/>
                     </ul>
                 </div>
